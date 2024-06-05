@@ -29,4 +29,4 @@ jobs:
       env:
         GITHUB_TOKEN : ${{ github.token }}
         SONAR_TOKEN  : ${{sonar.token }}
-      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=project_organization_key -Dsonar.projectKey=Project_Key
+      run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=Drachen_N01r -Dsonar.projectKey=Alf4r_calculator-maven-java
